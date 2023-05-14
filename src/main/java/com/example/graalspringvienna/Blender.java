@@ -2,8 +2,9 @@ package com.example.graalspringvienna;
 
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Service;
 
-@Bean
+@Service
 public class Blender implements Runnable {
 
     public static final Colour[][][] colours = new Colour[100][100][100];
